@@ -61,7 +61,7 @@ body {
   margin: 3rem auto;
   background: white;
   border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   overflow: hidden;
 }
 
@@ -89,6 +89,78 @@ body {
   border-radius: 8px;
   margin-top: 1rem;
   cursor: pointer;
+}
+
+.recent-posts h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.posts-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.post-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  width: 100%;
+  max-width: 350px;
+  transition: transform 0.2s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-5px);
+}
+
+.post-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.post-content {
+  padding: 1rem 1.25rem;
+}
+
+.meta {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 0.5rem;
+}
+
+.tag {
+  background-color: #e0e7ff;
+  color: #4338ca;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+}
+
+.post-content h3 {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+  font-weight: 600;
+}
+
+.description {
+  color: #4b5563;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.read-more {
+  text-decoration: none;
+  color: #3b82f6;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.read-more:hover {
+  text-decoration: underline;
 }
 
 .newsletter {
@@ -141,7 +213,8 @@ body {
   margin-bottom: 0.5rem;
 }
 
-.footer-container p, .footer-container ul {
+.footer-container p,
+.footer-container ul {
   font-size: 0.9rem;
   color: #555;
 }
