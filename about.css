@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Segoe UI", sans-serif;
+  font-family: system-ui, sans-serif;
   background-color: #f8fafc;
   color: #111827;
   /* padding: 2rem; */
@@ -87,6 +87,7 @@ body {
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   text-align: left;
+  margin-bottom: 5rem;
 }
 
 .story-box {
@@ -144,4 +145,57 @@ body {
 .info-card p {
   color: #64748b;
   font-size: 0.95rem;
+}
+
+.footer {
+  background-color: #f5f6f7;
+  padding: 2rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 7rem;
+}
+
+.footer-container h4 {
+  margin-bottom: 0.5rem;
+}
+
+.footer-container p {
+  width: 300px;
+}
+
+.footer-container ul {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.footer-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-container li {
+  margin-bottom: 0.3rem;
+}
+
+.footer-container a {
+  text-decoration: none;
+  color: #2c2c2d;
+}
+
+.footer-container a:hover {
+  text-decoration: underline;
+}
+
+footer .copyright {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #999;
+  margin-top: 2rem;
 }

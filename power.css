@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Segoe UI", sans-serif;
+  font-family: system-ui, sans-serif;
   background-color: #f5f7f9;
   color: #1a1a1a;
 }
@@ -81,7 +81,7 @@ body {
 }
 
 .blog-container {
-  max-width: 800px;
+  /* max-width: 800px; */
   margin: auto;
   background-color: #fff;
   padding: 2rem;
