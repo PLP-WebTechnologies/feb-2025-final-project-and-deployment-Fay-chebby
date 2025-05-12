@@ -94,12 +94,14 @@ body {
 .recent-posts h2 {
   font-size: 2rem;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .posts-container {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .post-card {
@@ -110,6 +112,7 @@ body {
   width: 100%;
   max-width: 350px;
   transition: transform 0.2s ease;
+  margin-bottom: 5rem;
 }
 
 .post-card:hover {
@@ -167,7 +170,8 @@ body {
   text-align: center;
   padding: 3rem 1rem;
   background: #f9fbfc;
-  border-top: 1px solid #e0e0e0;
+  /* border-top: 1px solid #e0e0e0; */
+  margin-bottom: 5rem;
 }
 
 .newsletter h3 {
@@ -203,17 +207,21 @@ body {
 
 .footer-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   max-width: 1000px;
   margin: 0 auto;
+  gap: 7rem;
 }
 
 .footer-container h4 {
   margin-bottom: 0.5rem;
 }
 
-.footer-container p,
+.footer-container p {
+  width: 300px;
+}
+
 .footer-container ul {
   font-size: 0.9rem;
   color: #555;
