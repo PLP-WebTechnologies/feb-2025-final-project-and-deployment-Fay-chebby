@@ -49,7 +49,7 @@ body {
 }
 
 .blog-container {
-  max-width: 800px;
+  /* max-width: 800px; */
   margin: auto;
   background-color: #fff;
   padding: 2rem;
@@ -102,6 +102,7 @@ code {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+  margin-bottom: 7rem;
 }
 
 .card {
@@ -109,7 +110,7 @@ code {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-  width: calc(50% - 0.5rem);
+  width: calc(30% - 0.5rem);
   transition: transform 0.3s;
 }
 
@@ -126,4 +127,57 @@ code {
 .card-title {
   padding: 1rem;
   font-weight: 600;
+}
+
+.footer {
+  background-color: #f5f6f7;
+  padding: 2rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 7rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.footer-container h4 {
+  margin-bottom: 0.5rem;
+}
+
+.footer-container p {
+  width: 300px;
+}
+
+.footer-container ul {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.footer-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-container li {
+  margin-bottom: 0.3rem;
+}
+
+.footer-container a {
+  text-decoration: none;
+  color: #2563eb;
+}
+
+.footer-container a:hover {
+  text-decoration: underline;
+}
+
+footer .copyright {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #999;
+  margin-top: 2rem;
 }
