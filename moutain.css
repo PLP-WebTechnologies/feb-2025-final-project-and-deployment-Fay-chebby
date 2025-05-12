@@ -80,8 +80,8 @@ body {
   margin-bottom: 0.5rem;
 }
 
-.blog-container {
-  max-width: 800px;
+.blog-content {
+  /* max-width: 800px; */
   margin: auto;
   background-color: #fff;
   padding: 2rem;
@@ -159,6 +159,16 @@ code {
 .card-title {
   padding: 1rem;
   font-weight: 600;
+}
+
+.card-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-title a:hover {
+  /* text-decoration: underline; */
+  color: #007acc; /* or your theme's link color */
 }
 
 .footer {
