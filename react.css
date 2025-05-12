@@ -48,6 +48,43 @@ body {
   margin-bottom: 0.5rem;
 }
 
+.blog-container {
+  max-width: 800px;
+  margin: auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+ul {
+  margin-left: 1.5rem;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+pre {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+code {
+  font-family: "Courier New", Courier, monospace;
+  color: #d63384;
+  font-size: 0.95rem;
+}
+
 .social-icons i {
   font-size: 1.4rem;
   margin-right: 1rem;
